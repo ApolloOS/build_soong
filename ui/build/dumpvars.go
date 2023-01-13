@@ -137,6 +137,7 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 
 // Variables to print out in the top banner
 var BannerVars = []string{
+        "APOLLO_BUILD_VERSION",
         "APOLLO_CODENAME",
 	"APOLLO_VERSION",
         "APOLLO_DEVICE",
